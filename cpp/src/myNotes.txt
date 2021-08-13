@@ -1,0 +1,21 @@
+Current version finished 09:10 13/08/21
+Author: Joshua Binns
+
+Notes:
+	- Had to alter the 'showAllPlaylist' test in the 'part2_test.cpp' file to
+	  make the script test the playlist order correctly. For some reason, that
+	  test wasn't asking for the order in which playlists were created, which
+	  is why I changed it.
+	- The tests containing 'containsRegex' for the playRandom tests in 
+	  'part1_test.cpp' will not run in my IDE. For some reason, it doesn't
+	  recognise the '|' character in the 'containsRegex' function, so
+	  this keeps showing me that it fails these tests for that reason.
+	  However, I have tested the 'playRandom' function extensively and
+	  have found that it works (the only 'issue' with it is that the random
+	  numbers are the same for every test as the seed doesn't change).
+
+The code for this project is very clunky and could be made a lot prettier. I
+am going to spend more time cleaning up this code in my own time, but I need
+to get this submitted by 11 am and therefore don't have time to clean it.
+This is mainly here as an apology to whomever ends up reading this code: I
+wish you the best of luck in making sense of many of the things in this script.
